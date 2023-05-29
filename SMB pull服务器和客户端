@@ -1,0 +1,8 @@
+SMB pull服务器和客户端 500客户端左右
+
+SMB pull服务
+1. 建李SMB分配用户，分配端口
+2. 【放置配置文件: guid命名的mof和对应new-dscchecksum产生的mof.sum文件】或者【（置配置文件和资源文件）:前述和压缩标准微软官网要求】
+
+客户端
+1. 配置相应的dsclocaldscconfigure到配置好的服务器SMB共享路径
